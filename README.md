@@ -1,7 +1,5 @@
 # react-use-a2hs
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
-
 ![version](https://img.shields.io/npm/v/react-use-a2hs.svg?style=flat-square)
 ![size](https://img.shields.io/bundlephobia/min/react-use-a2hs.svg?style=flat-square)
 ![minzippedsize](https://img.shields.io/bundlephobia/minzip/react-use-a2hs.svg?style=flat-square)
