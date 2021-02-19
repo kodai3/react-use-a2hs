@@ -1,0 +1,52 @@
+{
+  "name": "react-use-a2hs",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Kodai Suzuki<k3dai.su3@gmail.com>",
+  "description": "Use Before Install Prompt Event with React Hooks",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/kodai3/react-use-a2hs#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kodai3/react-use-a2hs"
+  },
+  "bugs": {
+    "url": "https://github.com/kodai3/react-use-a2hs/issues"
+  },
+  "scripts": {
+    "build": "rm -rf ./dist && yarn build:cjs && yarn build:es",
+    "build:cjs": "tsc",
+    "build:es": "tsc -m esNext --outDir ./dist/esm",
+    "format": "prettier . -w",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "yarn lint --fix"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^5.0.9",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "typescript": "^4.1.5"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0  || ^17.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "prettier ./src -c"
+    }
+  },
+  "lint-staged": {
+    "**/*.ts": [
+      "eslint --fix"
+    ]
+  }
+}

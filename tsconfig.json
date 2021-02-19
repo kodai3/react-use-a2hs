@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "ESNext",
+    "outDir": "./dist",
+    "lib": ["ES6", "dom"],
+    "jsx": "react",
+    "declaration": true
+  },
+  "include": ["src/**/*"],
+}
