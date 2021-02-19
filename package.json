@@ -34,6 +34,7 @@
     "lint:fix": "yarn lint --fix"
   },
   "devDependencies": {
+    "@types/react": "^17.0.2",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
     "eslint": "^7.20.0",

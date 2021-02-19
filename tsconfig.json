@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "target": "ESNext",
-    "outDir": "./dist",
-    "lib": ["ES6", "dom"],
     "jsx": "react",
-    "declaration": true
+    "target": "es6",
+    "rootDir": "src",
+    "outDir": "dist",
+    "module": "commonjs",
+    "lib": ["es2018", "dom"],
+    "moduleResolution": "node",
+    "strict": true,
+    "declaration": true,
+    "importHelpers": true,
+    "esModuleInterop": true
   },
   "include": ["src/**/*"],
 }
