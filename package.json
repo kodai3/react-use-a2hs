@@ -1,6 +1,6 @@
 {
   "name": "react-use-a2hs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "kodai <k3dai.su3@gmail.com>",
   "description": "Use Before Install Prompt Event with React Hooks",
