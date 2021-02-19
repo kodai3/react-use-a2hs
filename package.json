@@ -2,7 +2,7 @@
   "name": "react-use-a2hs",
   "version": "0.0.1",
   "license": "MIT",
-  "author": "Kodai Suzuki<k3dai.su3@gmail.com>",
+  "author": "kodai <k3dai.su3@gmail.com>",
   "description": "Use Before Install Prompt Event with React Hooks",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
@@ -15,6 +15,16 @@
   "bugs": {
     "url": "https://github.com/kodai3/react-use-a2hs/issues"
   },
+  "keywords": [
+    "typescript",
+    "react",
+    "hooks",
+    "pwa"
+  ],
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
   "scripts": {
     "build": "rm -rf ./dist && yarn build:cjs && yarn build:es",
     "build:cjs": "tsc",
